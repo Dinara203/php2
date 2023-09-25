@@ -1,0 +1,85 @@
+body{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 16px;
+}
+header{
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.85);
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.banner{
+    background: url(../image/рег4.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0;
+    display: flex;
+    justify-content: center;
+}
+.forma{
+    padding: 20px 20px 40px 20px ;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.85);
+    width: 550px;
+
+
+}
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.name, .email, .number{
+    padding: 10px 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 35px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #E43939 0.11%, rgba(255, 39, 208, 0.40) 99.86%);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+.errorname, .erroremail, .errornumber{
+    color: red;
+    font-size: 16px;
+    text-align: center;
+
+}
+.link{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.good{
+    color: green;
+    font-size: 16px;
+    text-align: center;
+
+}
